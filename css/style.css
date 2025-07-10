@@ -8,7 +8,7 @@
 	--grey: #808080;
 	--pink: #FFDADA;
     --accent: #B76E79;
-    --bg: #B3B3B3;
+    --bg: #f7fcfc;
 }
 .primary-text{
   font-family: "Raleway", sans-serif;
@@ -44,10 +44,10 @@ body{
     background-color: transparent;
     border: 1px solid var(--accent);
 }
-/* main{
+main{
     background-color: var(--bg);
     padding: 120px 140px 0 140px;
-} */
+}
 /* common styles end */
 
 /* header start */
@@ -86,3 +86,31 @@ nav{
     text-decoration: none;
 }
 /* header end */
+
+/* action start */
+.action{
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-text{
+    padding: 0 225px 0 0;
+}
+.action-text h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--dark);
+}
+.action-text p{
+    padding: 40px 0;
+    font-size: 24px;
+    color: var(--grey);
+    line-height: 30px;
+}
+.btn-launch a{
+    text-decoration: none;
+}
+.action-image img{
+    border-radius: 48px;
+}
