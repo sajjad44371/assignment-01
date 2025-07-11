@@ -1,26 +1,474 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-    
+    main{
+        padding: 60px 30px 0 30px;
+    }
+    .cmn-btn{
+        font-size: 15px;
+        font-weight: 400;
+        padding: 8px 15px;
+    }
+    /* header */
+    header{
+        padding: 0 30px;
+    }
+    nav {
+        padding: 25px 0;
+    }
+    .logo{
+        font-size: 28px;
+    }
+    .banner{
+        padding: 80px 10px;
+    }
+    .banner h1{
+        font-size: 36px;
+    }
+
+    /* action */
+    .action{
+        padding-bottom: 60px;
+        display: block;
+    }
+    .action-text{
+        padding: 0 20px 0 0;
+        margin-bottom: 20px;
+    }
+    .action-text h2{
+        font-size: 32px;
+    }
+    .action-text p{
+        padding: 5px 0 0 0;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .btn-launch{
+        margin-top: 15px;
+    }
+    .action-image img {
+        width: 100%;
+    }
+
+    /* user */
+    .user h2{
+        font-size: 60px;
+    }
+    .productive-user-content{
+        padding: 30px 15px;
+    }
+    .productive-user-content h2{
+        font-size: 22px;
+    }
+    .user p{
+        font-size: 15px;
+    }
+
+    /* feedback */
+    .feedback{
+        padding: 60px 0;
+    }
+    .feedback h2{
+        font-size: 36px;
+    }
+    .feedback-items{
+        padding-top: 40px;
+        display: block;
+    }
+    .feedback-single-item{
+        padding: 15px;
+    }
+    .feedback-single-item-text h4{
+        font-size: 20px;
+    }
+
+    /* ready */
+    .ready-content{
+        padding: 40px 15px;
+    }
+    .ready-content h2{
+        font-size: 38px;
+    }
+    .ready-content img{
+        width: 100%;
+    }
+
+    /* get */
+    .get-in-touch{
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .get-in-touch-title h2{
+        font-size: 38px;
+    }
+    .get-in-touch-form {
+        padding: 40px 0;
+    }
+    .form label{
+        font-size: 15px;
+    }
+    input[type="email"], input[type="text"], #message{
+        width: 105px;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    /* footer */
+    .footer-content{
+        padding: 40px 25px;
+    }
+    .footer-content h2{
+        font-size: 40px;
+    }
+    .footer-content p{
+        font-size: 14px;
+    }
+    .footer-content ul li a{
+        font-size: 14px;
+    }
  }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    
+     main{
+        padding: 75px 30px 0 30px;
+    }
+    /* header */
+    header{
+        padding: 0 30px;
+    }
+    nav {
+        padding: 30px 0;
+    }
+    .logo{
+        font-size: 32px;
+    }
+    .banner{
+        padding: 110px 10px;
+    }
+    .banner h1{
+        font-size: 42px;
+    }
+
+    /* action */
+    .action{
+        padding-bottom: 90px;
+    }
+    .action-text{
+        padding: 0 20px 0 0;
+    }
+    .action-text h2{
+        font-size: 36px;
+    }
+    .action-text p{
+        padding: 5px 0 0 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .btn-launch{
+        margin-top: 15px;
+    }
+    .action-image img {
+        width: 100%;
+    }
+
+    /* user */
+    .user h2{
+        font-size: 60px;
+    }
+    .productive-user-content{
+        padding: 50px 40px;
+    }
+    .productive-user-content h2{
+        font-size: 32px;
+    }
+    .user p{
+        font-size: 18px;
+    }
+
+    /* feedback */
+    .feedback{
+        padding: 90px 0;
+    }
+    .feedback h2{
+        font-size: 38px;
+    }
+    .feedback-items{
+        display: block;
+    }
+    .feedback-single-item{
+        padding: 15px;
+    }
+    .feedback-single-item-text h4{
+        font-size: 20px;
+    }
+
+    /* ready */
+    .ready-content{
+        padding: 60px 40px;
+    }
+    .ready-content h2{
+        font-size: 42px;
+    }
+    .ready-content img{
+        width: 100%;
+    }
+
+    /* get */
+    .get-in-touch{
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .get-in-touch-title h2{
+        font-size: 42px;
+    }
+    .get-in-touch-form {
+        padding: 40px 0;
+    }
+    .form label{
+        font-size: 15px;
+    }
+    input[type="email"], input[type="text"], #message{
+        width: 242px;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    /* footer */
+    .footer-content{
+        padding: 65px 90px;
+    }
+    .footer-content h2{
+        font-size: 42px;
+    }
  }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    
+    main{
+        padding: 100px 90px 0 90px;
+    }
+    /* header */
+    header{
+        padding: 0 90px;
+    }
+    .logo{
+        font-size: 32px;
+    }
+    .banner{
+        padding: 150px 10px;
+    }
+    .banner h1{
+        font-size: 48px;
+    }
+
+    /* action */
+    .action{
+        padding-bottom: 100px;
+    }
+    .action-text{
+        padding: 0 20px 0 0;
+    }
+    .action-text h2{
+        font-size: 36px;
+    }
+    .action-text p{
+        padding: 15px 0;
+        font-size: 16px;
+    }
+    .action-image img {
+        width: 100%;
+    }
+
+    /* user */
+    .user h2{
+        font-size: 60px;
+    }
+    .productive-user-content{
+        padding: 50px 40px;
+    }
+    .productive-user-content h2{
+        font-size: 32px;
+    }
+    .user p{
+        font-size: 18px;
+    }
+
+    /* feedback */
+    .feedback{
+        padding: 100px 0;
+    }
+    .feedback h2{
+        font-size: 38px;
+    }
+    .feedback-items{
+        gap: 15px;
+    }
+    .feedback-single-item{
+        padding: 15px;
+    }
+    .feedback-single-item-text h4{
+        font-size: 20px;
+    }
+
+    /* ready */
+    .ready-content{
+        padding: 60px 40px;
+    }
+    .ready-content h2{
+        font-size: 42px;
+    }
+    .ready-content img{
+        width: 100%;
+    }
+
+    /* get */
+    .get-in-touch{
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .get-in-touch-title h2{
+        font-size: 56px;
+    }
+    .form label{
+        font-size: 16px;
+    }
+    input[type="email"], input[type="text"], #message{
+        width: 290px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    /* footer */
+    .footer-content{
+        padding: 80px 175px;
+    }
+    .footer-content h2{
+        font-size: 62px;
+    }
  }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    
+    main{
+        padding: 120px 125px 0 125px;
+    }
+    /* header */
+    header{
+        padding: 0 125px;
+    }
+    .banner{
+        padding: 150px 40px;
+    }
+    .banner h1{
+        font-size: 54px;
+    }
+
+    /* action */
+    .action-text{
+        padding: 0 120px 0 0;
+    }
+    .action-text h2{
+        font-size: 38px;
+    }
+    .action-text p{
+        padding: 30px 0;
+        font-size: 18px;
+    }
+
+    /* user */
+    .user h2{
+        font-size: 60px;
+    }
+    .productive-user-content{
+        padding: 50px 110px;
+    }
+    .productive-user-content h2{
+        font-size: 35px;
+    }
+
+    /* feedback */
+    .feedback h2{
+        font-size: 38px;
+    }
+
+    /* ready */
+    .ready-content{
+        padding: 70px 120px;
+    }
+    .ready-content h2{
+        font-size: 46px;
+    }
+    .ready-content img{
+        width: 100%;
+    }
+
+    /* get */
+    .get-in-touch-title h2{
+        font-size: 76px;
+    }
+    input[type="email"], input[type="text"], #message{
+        width: 350px;
+    }
+
+    /* footer */
+    .footer-content{
+        padding: 100px 330px;
+    }
+    .footer-content h2{
+        font-size: 84px;
+    }
+    .footer-content p{
+        padding-bottom: 30px;
+    }
  }
 
 /* Extra large devices (desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
-    
+    /* header */
+    .banner{
+        padding: 150px 50px;
+    }
+    .banner h1{
+        font-size: 62px;
+    }
+
+    /* action */
+    .action-text p{
+        padding: 30px 0;
+        font-size: 22px;
+    }
+
+    /* user */
+    .user h2{
+        font-size: 76px;
+    }
+
+    /* ready */
+    .ready-content{
+        padding: 70px 120px;
+    }
+    .ready-content img{
+        width: 100%;
+    }
+
+    /* get */
+    .get-in-touch-title h2{
+        font-size: 90px;
+    }
+    input[type="email"], input[type="text"], #message{
+        width: 400px;
+    }
+
+    /* footer */
+    .footer-content{
+        padding: 100px 330px;
+    }
+    .footer-content h2{
+        font-size: 94px;
+    }
+    .footer-content p{
+        padding-bottom: 30px;
+    }
  }
 
 /*Extra extra large devices (large desktops, 1400px and up)*/

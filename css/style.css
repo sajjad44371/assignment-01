@@ -163,6 +163,7 @@ nav{
     gap: 20px;
 }
 .feedback-single-item{
+    margin-bottom: 10px;
     padding: 25px;
     background-color: white;
     border-radius: 14px;
@@ -303,7 +304,7 @@ input[type="submit"]{
     font-style: normal;
     font-size: 16px;
     color: var(--grey);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .footer-content ul{
     display: flex;
