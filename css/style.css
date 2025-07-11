@@ -212,3 +212,32 @@ nav{
     color: var(--grey);
 }
 /* feedback end */
+
+/* ready start */
+.ready{
+    background-color: white;
+    border-radius: 14px;
+}
+.ready-content{
+    padding: 70px 150px;
+    text-align: center;
+}
+.ready-content h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--dark);
+    margin-bottom: 20px;
+}
+.ready-content p{
+    color: var(--grey);
+}
+.btn-get-started{
+    margin: 35px 0;
+}
+.btn-get-started a{
+    text-decoration: none;
+}
+.ready-content img{
+    border-radius: 48px;
+}
+/* ready end */
