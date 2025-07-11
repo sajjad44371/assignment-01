@@ -284,3 +284,39 @@ input[type="submit"]{
     width: 100%;
 }
 /* get-in-touch end */
+
+/* footer start */
+.footer-content{
+    padding: 100px 440px;
+    text-align: center;
+}
+.footer-content h2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 100px;
+    color: var(--accent);
+}
+.footer-content p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--grey);
+    padding-bottom: 20px;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content ul li{
+    list-style: none;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color: var(--grey);
+    transition: .33s;
+}
+.footer-content ul li a:hover{
+    color: var(--accent);
+}
